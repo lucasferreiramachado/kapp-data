@@ -1,4 +1,4 @@
-package com.lucasferreiramachado.module.replaceme
+package com.lucasferreiramachado.kapp.data.core
 
 import kotlin.test.Test
 import kotlin.test.assertEquals

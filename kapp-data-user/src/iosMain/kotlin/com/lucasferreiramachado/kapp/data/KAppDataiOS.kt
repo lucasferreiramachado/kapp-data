@@ -1,3 +1,3 @@
-package com.lucasferreiramachado.kapp.data
+package com.lucasferreiramachado.kapp.data.user
 
 class KAppDataiOS {}

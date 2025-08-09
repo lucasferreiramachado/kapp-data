@@ -1,3 +1,3 @@
-package com.lucasferreiramachado.module.replaceme
+package com.lucasferreiramachado.kapp.data.purchase
 
 class KAppDataJvm {}
