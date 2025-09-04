@@ -31,4 +31,5 @@ dependencyResolutionManagement {
 
 include(":example:composeApp")
 include(":kapp-data-user")
+include(":kapp-data-product")
 include(":kapp-data-purchase")

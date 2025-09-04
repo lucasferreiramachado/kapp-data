@@ -5,9 +5,9 @@ import org.jetbrains.kotlin.gradle.targets.js.webpack.KotlinWebpackConfig
 
 val libraryVersion          = "1.0.0"
 val libraryNamespace        = "io.github.lucasferreiramachado"
-val frameworkLibraryName    = "KAppDataPurchase" // execute gradle clean after changed it
-val libraryArtifact         = "kapp-data-purchase"
-val libraryPackage          = "${libraryNamespace}.kapp.data.purchase"
+val frameworkLibraryName    = "KAppDataProduct" // execute gradle clean after changed it
+val libraryArtifact         = "kapp-data-product"
+val libraryPackage          = "${libraryNamespace}.kapp.data.product"
 val githubRepoName          = "kapp-data"
 
 plugins {
@@ -69,7 +69,7 @@ kotlin {
 }
 
 android {
-    namespace = "io.github.lucasferreiramachado.kapp.data.purchase"
+    namespace = "io.github.lucasferreiramachado.kapp.data.user"
     compileSdk = libs.versions.android.compileSdk.get().toInt()
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11

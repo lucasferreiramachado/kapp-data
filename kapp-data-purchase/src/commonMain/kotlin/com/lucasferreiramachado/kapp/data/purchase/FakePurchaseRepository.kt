@@ -1,8 +1,8 @@
-package com.lucasferreiramachado.module.data.purchase
+package com.lucasferreiramachado.kapp.data.purchase
 
-import com.lucasferreiramachado.module.data.purchase.model.PaymentMethod
-import com.lucasferreiramachado.module.data.purchase.model.Purchase
-import com.lucasferreiramachado.module.data.purchase.model.ShoppingCartProduct
+import com.lucasferreiramachado.kapp.data.purchase.model.PaymentMethod
+import com.lucasferreiramachado.kapp.data.purchase.model.Purchase
+import com.lucasferreiramachado.kapp.data.purchase.model.ShoppingCartProduct
 
 class FakePurchaseRepository(
     private var purchase: Purchase? = null

@@ -1,6 +1,6 @@
-package com.lucasferreiramachado.module.data.user
+package com.lucasferreiramachado.kapp.data.user
 
-import com.lucasferreiramachado.module.data.user.model.AuthenticatedUser
+import com.lucasferreiramachado.kapp.data.user.model.AuthenticatedUser
 
 public class FakeUserRepository(
     private var authenticatedUser: AuthenticatedUser? = null

@@ -4,7 +4,7 @@ import org.jetbrains.kotlin.gradle.ExperimentalWasmDsl
 import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 import org.jetbrains.kotlin.gradle.targets.js.webpack.KotlinWebpackConfig
 
-val libraryVersion          = "0.3.0"
+val libraryVersion          = "1.0.0"
 val libraryNamespace        = "io.github.lucasferreiramachado"
 val frameworkLibraryName    = "KAppDataCompose" // execute gradle clean after changed it
 val libraryArtifact         = "kapp-data-compose"
@@ -78,9 +78,10 @@ kotlin {
             implementation(libs.androidx.lifecycle.runtimeCompose)
 
             implementation(project(":kapp-data-user"))
+            implementation(project(":kapp-data-product"))
             implementation(project(":kapp-data-purchase"))
 
-//            implementation("io.github.lucasferreiramachado:kapp-data:0.3.0")
+//            implementation("io.github.lucasferreiramachado:kapp-data:1.0.0")
         }
         commonTest.dependencies {
             implementation(libs.kotlin.test)

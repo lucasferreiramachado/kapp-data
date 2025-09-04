@@ -1,4 +1,4 @@
-package com.lucasferreiramachado.module.data.purchase.model
+package com.lucasferreiramachado.kapp.data.purchase.model
 
 
 data class Purchase(

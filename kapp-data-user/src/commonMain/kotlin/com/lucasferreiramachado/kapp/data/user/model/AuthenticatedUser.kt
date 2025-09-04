@@ -1,4 +1,4 @@
-package com.lucasferreiramachado.module.data.user.model
+package com.lucasferreiramachado.kapp.data.user.model
 
 public data class AuthenticatedUser(
     public val id: String,
